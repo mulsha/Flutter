@@ -11,11 +11,15 @@ class column_row_task extends StatelessWidget {
             children: [
               Row(
                 children: [
-                  Container(
-                    height: 170,
-                    width: 100,
-                    decoration: BoxDecoration(
-                      color: Colors.red
+                  InkWell(onTap: () {
+                    Navigator.pop(context);
+                  },
+                    child: Container(
+                      height: 170,
+                      width: 100,
+                      decoration: BoxDecoration(
+                        color: Colors.red
+                      ),
                     ),
                   ),
                   Padding(

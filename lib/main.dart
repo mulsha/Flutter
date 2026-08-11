@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:priyanshi/StackExample.dart';
 import 'package:priyanshi/column_row.dart';
 import 'package:priyanshi/listview.dart';
+import 'package:priyanshi/settings.dart';
+import 'package:priyanshi/splash_screen.dart';
 import 'package:priyanshi/stack.dart';
 import 'package:priyanshi/stack_example.dart';
 import 'package:priyanshi/tab_bar_example.dart';
@@ -48,7 +51,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: whastapp(),
+      home: settings(),
 
     );
   }
