@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:priyanshi/column_row.dart';
-import 'package:priyanshi/gridview.dart';
-import 'package:priyanshi/wp_example.dart';
+import 'package:priyanshi/Practice/wp_example.dart';
 
 import 'appointment.dart';
+import 'column_row.dart';
+import 'gridview.dart';
 
 class appointment_page extends StatefulWidget {
   const appointment_page({super.key});

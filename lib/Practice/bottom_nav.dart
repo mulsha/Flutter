@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:priyanshi/gridview.dart';
-import 'package:priyanshi/listview.dart';
-import 'package:priyanshi/stack.dart';
+import 'package:priyanshi/Practice/stack.dart';
+
+import 'gridview.dart';
+import 'listview.dart';
+
 
 class bottom_nav extends StatefulWidget {
   bottom_nav({super.key});

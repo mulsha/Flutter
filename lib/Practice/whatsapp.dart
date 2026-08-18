@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:priyanshi/appointment.dart';
-import 'package:priyanshi/column_row_task.dart';
-import 'package:priyanshi/stack.dart';
+import 'package:priyanshi/Practice/appointment.dart';
+import 'package:priyanshi/Practice/column_row_task.dart';
+import 'package:priyanshi/Practice/stack.dart';
 
 class whastapp extends StatelessWidget {
   whastapp({super.key});

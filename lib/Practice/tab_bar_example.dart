@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:priyanshi/appointment.dart';
-import 'package:priyanshi/column_row_task.dart';
-import 'package:priyanshi/listview.dart';
-import 'package:priyanshi/wp_example.dart';
+import 'package:priyanshi/Practice/column_row_task.dart';
+import 'package:priyanshi/Practice/wp_example.dart';
+
+import 'appointment.dart';
 
 class tab_bar_example extends StatelessWidget {
   const tab_bar_example({super.key});
