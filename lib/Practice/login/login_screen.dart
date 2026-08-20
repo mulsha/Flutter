@@ -5,7 +5,11 @@
 import 'package:flutter/material.dart';
 
 class login_screen extends StatelessWidget {
-  const login_screen({super.key});
+  login_screen({super.key});
+
+  TextEditingController password = TextEditingController();
+  TextEditingController username = TextEditingController();
+
 
   @override
   Widget build(BuildContext context) {
@@ -51,8 +55,8 @@ class login_screen extends StatelessWidget {
                     ),
                     child: Container(
                       padding: EdgeInsets.only(
-                        top: 3,
-                        bottom: 3,
+                        top: 0,
+                        bottom: 0,
                         left: 13,
                         right: 13,
                       ),
@@ -61,6 +65,7 @@ class login_screen extends StatelessWidget {
                         borderRadius: BorderRadius.circular(13),
                       ),
                       child: TextField(
+                        controller: username,
                         decoration: InputDecoration(border: InputBorder.none),
                       ),
                     ),
@@ -82,8 +87,8 @@ class login_screen extends StatelessWidget {
                     ),
                     child: Container(
                       padding: EdgeInsets.only(
-                        top: 3,
-                        bottom: 3,
+                        top: 0,
+                        bottom: 0,
                         left: 13,
                         right: 13,
                       ),
@@ -92,6 +97,7 @@ class login_screen extends StatelessWidget {
                         borderRadius: BorderRadius.circular(13),
                       ),
                       child: TextField(
+                        controller: password,
                         decoration: InputDecoration(border: InputBorder.none),
                       ),
                     ),
@@ -108,7 +114,10 @@ class login_screen extends StatelessWidget {
                       child: Container(
                         width: double.infinity,
                         child: ElevatedButton(
-                          onPressed: () {},
+                          onPressed: () {
+                            password.text="";
+                            username.text="";
+                          },
                           child: Padding(
                             padding: const EdgeInsets.only(top: 10,bottom: 10),
                             child: Text(
