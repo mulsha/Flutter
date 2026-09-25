@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:priyanshi/Practice/login/login_screen.dart';
 import 'Practice/instragram_loginpage.dart';
+import 'Practice/tree_plant/tree_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: login_screen(),
+      home: TreeScreen(),
     );
   }
 }
